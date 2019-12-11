@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 mx-auto" id="DFT">
+
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="heads">
+                        <h1>New York Times Search</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="inputsBox">
+                        <div class="boxTitle">
+                           <h5>SEARCH PARAMETERS</h5>
+                        </div>
+
+                        <p>Search Term:</p>
+                        <input type="text">
+                        
+                        <p>Number of Records to Retrieve:</p>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                        </select>
+                
+                        <p>Start Year (Optional):</p>
+                        <input type="number">
+                        
+                        <p>End Year (Optional):</p>
+                        <input type="number">
+
+                        <button id="search">search</button>
+                        <button id="clear">clear</button>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="articles">
+                        <div class="footerTitle">
+                            <h5>Top Articles</h5>
+                        </div>
+
+                        <div id="results"></div>
+                    </div>
+                </div>
+         
+
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
