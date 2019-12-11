@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heads {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    background-color: rgb(36, 2, 160);
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+}
+#inputsBox {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.boxTitle {
+    background-color: #ccc;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 2px  solid #ccc;
+    border-radius: 3px;
+}
+
+input, select {
+    border: 1 solid #000;
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block
+}
+
+#searchBtn {
+    float: left;
+}
+
+#clearBtn {
+    float: left;
+}
+
+.footerTitle {
+    background-color: #ccc;
+    padding: 5px;
+    margin-top: 25px;
+    width: 100%;
+    border: 2px  solid #ccc;
+    border-radius: 3px;
+}
+
+#results {
+    padding: 10px;
+}
